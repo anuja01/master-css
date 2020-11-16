@@ -23,3 +23,15 @@ https://www.youtube.com/watch?v=Qf-wVa9y9V4
 - `display: none`
   - Acts as if element is completely deleted from the HTML.
   - No space is taken.
+
+
+### 03 - `flexbox` layout model
+https://www.youtube.com/watch?v=fYq5PXgSsbE
+- Set `css` property `display: flex` for the wrapper to create a flexbox container.
+- Allows you to style flexibility and sizing of elements inside the flexbox container from the actual container selector, rather than styling individual element.
+- Items inside a flex container will shrink to fit the browser widow by default
+- By default flexbox container laid out in a row (Horizontal). (`flex-direction: row`)
+- Can change layout to vertical by setting `flex-direction: column`, then main axis will be vertical and property behaviour will change according to main axis.
+
+### 04 - `CSS Grid` layout model
+https://www.youtube.com/watch?v=9zBsdzdE4sM

@@ -1,0 +1,58 @@
+.flexbox-container-1 {
+    display: flex; /* create a flexbox container */
+    justify-content: center; /* center elements in main axis */
+    /*
+    justify-content: flex-start; // default
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    */
+    align-items: center; /* center elements in cross axis */
+    /*
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;  //default
+    */
+    background-color: floralwhite;
+}
+
+.flexbox-container-2 {
+    display: flex; /* create a flexbox container */
+    flex-wrap: wrap; /* elements won't shrink when resizing browser, instead wrapped into different lines */
+    align-content:space-around; /* how much space to put between item lines when wrap */
+    align-items: center; /* center elements in cross axis */
+    height: 300px;
+    background-color: grey;
+
+}
+
+.flexbox-container-3 {
+    display: flex; /* create a flexbox container */
+    flex-direction: column; /* align items vertically */
+    justify-content: flex-end; /* need to add height to reflect these */
+    align-items: center;
+    height: 300px;
+    background-color: darkkhaki;
+    
+
+}
+
+.flexbox-item {
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 25px;
+}
+
+.flexbox-item-2 {
+    min-height: 50px;
+}
+
+.flexbox-item-3 {
+    min-height: 75px;
+}
