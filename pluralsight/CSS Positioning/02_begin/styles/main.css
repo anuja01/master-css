@@ -1,6 +1,9 @@
 body {
     background-color: #1f1f1f;
     color: #bfbfbf;
+    height: 2000px; /*when scroll enabled, 
+                    fixed elements will stay in same position respective 
+                    to browser window */
 }
 
 h1 {
@@ -23,4 +26,16 @@ em {
 
 .greenBox {
      background: #5b8054;  
+}
+
+.redeBox {
+    background: red;
+    position: fixed;
+    right: 110px; /* 150px from right - can't apply both left and right*/
+    bottom: 110px; /* can't apply both top and bottom*/
+    top: 120px; /* top will get the priority */
+}
+
+.cyanBox {
+     background: cyan;  
 }

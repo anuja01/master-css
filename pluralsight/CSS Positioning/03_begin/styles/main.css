@@ -20,6 +20,9 @@ em {
 
 .blueBox {
     background: #627da0;
+    position: absolute;
+    top: 0; /* since parent has position attribute, top: 0 will set respective to parent*/
+    /* bottom: 50px; similar to fixed positioning, but will move along with page when scrolling */
 }
 
 .greenBox {
@@ -27,5 +30,9 @@ em {
 }
 
 .container {
-    /*background: rgba(0,0,0,.4);*/ 
+    background: rgba(0,0,0,.4); /* by default div will take full parent width, but doesn't have any height */
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    position: absolute; /* when position is applied to this container, blueBox will set it's position respective to this parent */
 }
