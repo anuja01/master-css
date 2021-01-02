@@ -16,6 +16,13 @@ em {
     width: 100px;
     height: 100px;
     margin-top: 10px;
+    float: left; /* other elements respect the width and height of floading element */
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    float: right;
 }
 
 .boxBlue {

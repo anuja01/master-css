@@ -13,14 +13,30 @@ em {
 }
 
 .box {
-    background: #627da0;
     width: 100px;
     height: 100px;
 }
 
 .blueBox {
+    background: #627da0;
+    margin: 0 auto; /* styles applied to element to center vertically*/
 
 }
+.redBox {
+    background: sienna;
+    margin: 0 auto;
+}
+.greenBox {
+    position: absolute;
+    background: teal;
+    top: 50%;
+    margin-top: -50px; /* based on hight of element (height/2)*/
+}
 .container {
-
+    /* styles applied to container to center vertically*/
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 100%;
+    border: 1px solid;
 }

@@ -5,7 +5,8 @@ body {
 }
 
 h1 {
-    font-weight: normal;   
+    font-weight: normal;
+    clear: both; /* otherwise in this case text will be in between floating elements */
 }
 
 em {
@@ -21,9 +22,11 @@ em {
 
 .blueBox {
     background: #627da0;
+    float: left;
 }
 
 .greenBox {
-    background: #5b8054;  
+    background: #5b8054;
+    float: right; 
 }
 
