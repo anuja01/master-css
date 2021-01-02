@@ -19,6 +19,6 @@ It's important to understand how and element and it's surrounding elements behav
  - If parent doesn't have a position attribute, absolute will behave similar to **fixed**, but the difference is element will move along with the page when scrolling.   
   
 
-## Absolute positioning
+## Relative positioning
  - ***Relative positioning*** sets the position of an element *relative to its original position*.   
  - The element's original width and height is retained in document flow and *other elements behave as if it was in its original position*.
