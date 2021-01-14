@@ -19,7 +19,8 @@ It's important to understand how and element and it's surrounding elements behav
  - Can apply ***top***, ***bottom***, ***left***, ***right*** properties. (with repect to browser window)   
 
 ## Absolute positioning
- - ***Absolute positioning*** takes an element out of document flow, meaning the browser acts as if the element has no width and height, and the other elements on the page move up as if it was never there.    
+ - ***Absolute positioning*** takes an element out of document flow, meaning the browser acts as if the element has no width and height, and the    
+ **Surrounding elements** on the page move up as if it was never there.    
  - The position of the element is then fixed with respect to the ***top level container***, or the ***closest parent with a set positioning***.
  - If parent doesn't have a position attribute, absolute will behave similar to **fixed**, but the difference is element will move along with the page when scrolling.   
   
