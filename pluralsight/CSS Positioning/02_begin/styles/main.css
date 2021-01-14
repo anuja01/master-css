@@ -31,7 +31,7 @@ em {
 .redeBox {
     background: red;
     position: fixed;
-    right: 110px; /* 150px from right - can't apply both left and right*/
+    left: 50px; /* 150px from right - can't apply both left and right*/
     bottom: 110px; /* can't apply both top and bottom*/
     top: 120px; /* top will get the priority */
 }

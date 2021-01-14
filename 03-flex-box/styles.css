@@ -41,7 +41,7 @@
 }
 
 .flexbox-item {
-    width: 200px;
+    width: 360px;
     margin: 10px;
     border: 3px solid #333;
     background-color: #dfdfdf;
@@ -61,6 +61,10 @@
     min-height: 75px;
     flex-grow: 1; /* take up available space in screen, size depends on the number proportionally (propotional to available space to grow)*/
     flex-basis: 0; /* set the initial size of a flex item, so won't respect the width. */
+}
+
+.flexbox-item-3_2 {
+    min-height: 75px;
 }
 
 .flexbox-item-4 {

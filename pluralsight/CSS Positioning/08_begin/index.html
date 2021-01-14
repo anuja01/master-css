@@ -6,14 +6,18 @@
         <meta charset="utf-8">
     </head>
     <body>
-        center vertically and horizontally (vertically center the container, horizontally center the element - blue box)
+        center vertically and horizontally (blue box) - Apply both vertical, horizontal center attributes
         <div class="container">
             <div class="box blueBox"></div>
         </div>
         <br />
-        horizontally center using margin: 0 auto (orange box)
+        horizontally center using <code>margin: 0 auto</code> (orange box)
         <div class="box redBox"></div>
-        vertically center using top and margin-top (green box)
+        vertically center using top and margin-top (green box) <br/>
+        <code>
+        top: 50%; <br/>
+        margin-top: -50px; /* based on hight of element (height/2)*/
+        </code>
         <div class="box greenBox"></div>
         <h1>Understanding CSS Positioning</h1>
         <p>One of the most commonly asked questions is how to <em>center elements</em> since there is no option to float center.  But by  thinking carefully about how elements  behave, we can use positioning to achieve the same result.</p>
