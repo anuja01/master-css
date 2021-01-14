@@ -4,7 +4,7 @@ https://app.pluralsight.com/library/courses/css-positioning-1834/table-of-conten
 Position attribute allows to move an element in the document. (respective to document or parent)      
 It's important to understand how and element and it's surrounding elements behaves when changing it's position attribute.   
  - Static - default positioning in document
- - Fixed - fixed position respect to document
+ - Fixed - fixed position respect Browser window
  - Absolute - fixed position respective to docuemnt or fixed position respective to closest parent with position attribute set
  - Relative - sets the position of an element relative to its original position.
  - Inherit - inherit positioning from parent
