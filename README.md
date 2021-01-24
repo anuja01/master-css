@@ -40,3 +40,5 @@ https://www.youtube.com/watch?v=9zBsdzdE4sM
 
 ### 05 - CSS positioning   
 https://github.com/anuja01/master-css/tree/main/pluralsight/CSS%20Positioning
+
+### 06 - CSS Specificity
